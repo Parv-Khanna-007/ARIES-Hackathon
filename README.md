@@ -26,8 +26,8 @@ In scientific research papers, the Introduction and Conclusion play a critical r
 To mimic how a reviewer reads and evaluates a paper, my model focuses on extracting and analyzing these sections.
 I used regular expressions to find text between:
 
-- `"introduction"` and `"methodology"` (or `"methods"`)
-- `"conclusion"` and `"references"` (or `"acknowledgments"`)
+- "introduction" and "methodology" (or "methods")
+- "conclusion" and "references" (or "acknowledgments")
 
 This allows me to isolate just the content in those two key parts of the paper for further analysis.
 
