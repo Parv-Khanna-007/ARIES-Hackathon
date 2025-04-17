@@ -1,6 +1,9 @@
 # ARIES-Hackathon
 # Publishability Classifier
 
+# Name : Parv Khanna
+# Enrollment number : 23112070
+
 The goal was to build an intelligent system capable of analyzing research papers and classifying them as either **publishable** or **non-publishable**, like a scientific reviewer would.
 I achieved this using **machine learning techniques** to build a model that is both accurate and explainable.
 
