@@ -59,3 +59,6 @@ Evaluated prediction on the basis of **f1-score, weighted average and macro aver
 Most models focus only on the text itself.
 My approach adds **contextual intelligence** — understanding how a paper is written, how it flows, and how readable it is.
 The model is small, fast, and works well on limited data, making it perfect for hackathon deployment.
+
+## Futher Improvement
+To improve the model further, I can incorporate section-aware embeddings using SciBERT, which is trained specifically on scientific text. Expanding the dataset through data augmentation or semi-supervised learning would enhance generalization. Fine-tuning classification thresholds and applying advanced ensemble techniques like stacking could also boost performance. Additionally, incorporating citation patterns, figure/table analysis, or abstract-based scoring would allow the model to capture more scholarly details, improving its ability to mimic expert-level publishing judgment.
