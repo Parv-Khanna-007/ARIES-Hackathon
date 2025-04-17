@@ -15,7 +15,7 @@ The classifier was trained to distinguish between:
 The system is designed to **mimic human reasoning**, providing not just predictions, but also a **plain-language justification** for each result.
 
 ## Approach
-I chose a **hybrid strategy**, combining expert-inspired handcrafted features with machine learning to deliver robust, interpretable results.
+I chose a **hybrid strategy**, combining handcrafted features with machine learning to deliver robust, interpretable results.
 
 ## Step 1: Extracting Key Sections — Introduction and Conclusion
 In scientific research papers, the Introduction and Conclusion play a critical role:
@@ -37,7 +37,6 @@ I computed several textual quality indicators:
 - **Dale-Chall Readability Score** – measures how easy the paper is to understand.
 - **Automated Readability Index (ARI)** – estimates school grade level needed to comprehend the text.
 - **Word Count** – longer documents may indicate more in-depth analysis.
-- **f1-score** - The model achieved a high F1 score, indicating a strong balance between precision and recall in correctly identifying both publishable and non-publishable papers.
 
 ## Step 3: Semantic Coherence
 A paper’s Introduction and Conclusion should be logically aligned.
@@ -55,7 +54,7 @@ Instead of relying on a single algorithm, I used a **Voting Classifier** that co
 - **Gradient Boosting** (for subtle edge cases)
 
 Each model casts a "vote", and the combined output gives a final prediction with confidence.
-
+Evaluated pfrediction on basis of **f1-score, weighted average and macro average.**
 ## Why This Approach Works
 Most models focus only on the text itself.
 My approach adds **contextual intelligence** — understanding how a paper is written, how it flows, and how readable it is.
