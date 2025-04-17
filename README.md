@@ -54,7 +54,7 @@ Instead of relying on a single algorithm, I used a **Voting Classifier** that co
 - **Gradient Boosting** (for subtle edge cases)
 
 Each model casts a "vote", and the combined output gives a final prediction with confidence.
-Evaluated pfrediction on basis of **f1-score, weighted average and macro average.**
+Evaluated prediction on the basis of **f1-score, weighted average and macro average.**
 ## Why This Approach Works
 Most models focus only on the text itself.
 My approach adds **contextual intelligence** — understanding how a paper is written, how it flows, and how readable it is.
