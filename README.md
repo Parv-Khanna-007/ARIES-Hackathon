@@ -37,6 +37,7 @@ I computed several textual quality indicators:
 - **Dale-Chall Readability Score** – measures how easy the paper is to understand.
 - **Automated Readability Index (ARI)** – estimates school grade level needed to comprehend the text.
 - **Word Count** – longer documents may indicate more in-depth analysis.
+- **f1-score** - The model achieved a high F1 score, indicating a strong balance between precision and recall in correctly identifying both publishable and non-publishable papers.
 
 ## Step 3: Semantic Coherence
 A paper’s Introduction and Conclusion should be logically aligned.
