@@ -35,7 +35,7 @@ This allows me to isolate just the content in those two key parts of the paper f
 I computed several textual quality indicators:
 
 - **Dale-Chall Readability Score** – measures how easy the paper is to understand.
-- **Automated Readability Index (ARI)** – estimates the U.S. school grade level needed to comprehend the text.
+- **Automated Readability Index (ARI)** – estimates school grade level needed to comprehend the text.
 - **Word Count** – longer documents may indicate more in-depth analysis.
 
 ## Step 3: Semantic Coherence
