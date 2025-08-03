@@ -1,6 +1,4 @@
-# Self Project 
-# ARIES-Hackathon
-# Publishability Classifier
+# Self Project : Publishability Classifier
 
 # Name : Parv Khanna
 # Enrollment number : 23112070
