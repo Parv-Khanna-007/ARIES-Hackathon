@@ -1,4 +1,4 @@
-# Self Project (Publishability Classifier)
+# Self Project 
 # ARIES-Hackathon
 # Publishability Classifier
 
